@@ -32,8 +32,8 @@ on:
       - "main"
 
 env:
-  AWS_REGION: MY_AWS_REGION                               # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: MY_ECR_REPOSITORY                       # set this to your Amazon ECR repository name
+  AWS_REGION: eu-north-1	                                # set this to your preferred AWS region, e.g. us-west-1
+  ECR_REPOSITORY: nextapp-ecr-repo                       # set this to your Amazon ECR repository name
   ECS_SERVICE: sample-app-service                         # set this to your Amazon ECS service name
   ECS_CLUSTER: default                                    # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: nextapp-deploy-taskdefinition.json # set this to the path to your Amazon ECS task definition
