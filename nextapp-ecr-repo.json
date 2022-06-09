@@ -1,16 +1,16 @@
 {
-    repository: {
-        repositoryArn: arn:aws:ecr:eu-north-1:801088094745:repository/nextapp-ecr-repo,
-        registryId: 801088094745,
-        repositoryName: nextapp-ecr-repo,
-        repositoryUri: 801088094745.dkr.ecr.eu-north-1.amazonaws.com/nextapp-ecr-repo,
-        createdAt: 2022-06-08T13:38:17+02:00,
-        imageTagMutability: MUTABLE,
-        imageScanningConfiguration: {
-            scanOnPush: false
+    "repository": {
+        "repositoryArn": "arn:aws:ecr:us-east-2:801088094745:repository/nextapp-ecr-repo",
+        "registryId": "801088094745",
+        "repositoryName": "nextapp-ecr-repo",
+        "repositoryUri": "801088094745.dkr.ecr.us-east-2.amazonaws.com/nextapp-ecr-repo",
+        "createdAt": "2022-06-09T14:43:58+02:00",
+        "imageTagMutability": "MUTABLE",
+        "imageScanningConfiguration": {
+            "scanOnPush": false
         },
-        encryptionConfiguration: {
-            encryptionType: AES256
+        "encryptionConfiguration": {
+            "encryptionType": "AES256"
         }
     }
 }
